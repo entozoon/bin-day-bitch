@@ -6,7 +6,7 @@
 const char *ssid = ENV_SSID;
 const char *pass = ENV_PASS;
 
-const long utcOffsetInSeconds = 3600;
+const long utcOffsetInSeconds = 0; // afaik UTC is GMT
 
 char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 
