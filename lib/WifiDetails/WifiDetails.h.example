@@ -1,0 +1,2 @@
+#define SSID "WifiName"
+#define PASS "wifipassword"

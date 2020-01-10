@@ -2,9 +2,10 @@
 #include <NTPClient.h>
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
+#include <WifiDetails.h>
 
-const char *ssid = ENV_SSID;
-const char *pass = ENV_PASS;
+// const char *ssid = ENV_SSID;
+// const char *pass = ENV_PASS;
 
 const long utcOffsetInSeconds = 0; // afaik UTC is GMT
 
@@ -19,7 +20,8 @@ void setup()
   Serial.begin(115200);
   delay(3000);
   Serial.println("Okay");
-  Serial.println(ssid);
+  Serial.println(SSID);
+  // Serial.println(ssid);
   // WiFi.begin(ssid, pass);
   // while (WiFi.status() != WL_CONNECTED)  {
   //   delay(500);
