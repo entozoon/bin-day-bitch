@@ -7,3 +7,7 @@ Heavily inspired by Darren Tarbard's BinDiCator https://twitter.com/tarbard/stat
 
 - 3D printed bin, lit up. Might be able to do it slightly tidier than the inspiration but it's been done.
 - Enclosure with 'Put Bin Out' in appropriate colour, CNCd
+
+## Usage
+
+Save `WifiDetails.h.example` in lib to `WifiDetails.h` and populate
