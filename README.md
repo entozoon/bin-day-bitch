@@ -1,4 +1,4 @@
-# Bin Day, Bitch!
+# Bin Night, Bitch!
 
 Indicate when it's time to put the bins out, and which one specifically.
 Heavily inspired by Darren Tarbard's BinDiCator https://twitter.com/tarbard/status/1002464120447397888
